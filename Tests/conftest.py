@@ -28,5 +28,6 @@ def init_driver(request):
 
     request.cls.driver = web_driver
     web_driver.implicitly_wait(10)
+    web_driver.maximize_window()
     yield
     web_driver.quit()
