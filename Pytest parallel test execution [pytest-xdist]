@@ -1,0 +1,10 @@
+PARALLEL TEST EXECUTION
+
+INSTALLATION:
+" pip install pytest-xdist "
+
+RUNNING COMMAND:
+" pytest Tests/test_LoginPage.py -v -n 3 "
+
+RUN PARALLEL and WITH TEST REPORT:
+" pytest Tests/test_LoginPage.py -v -n 3 --html=./My_Test_Report_1.html "

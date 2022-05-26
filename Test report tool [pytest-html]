@@ -1,0 +1,9 @@
+SAMPLE RUNNING COMMAND:
+" pytest Tests/test_LoginPage.py -v --html=./My_HTML_Report_1.html "
+
+- "-v --html=" - use html report plugin
+- "." - means put my file into root directory of project
+- "My_HTML_Report_1.html" - report name; ".html" part in the end of command is crucial.
+
+
+2. Next copy "Absolute path" of freshly generated report and paste it into the web browser of your choice.
