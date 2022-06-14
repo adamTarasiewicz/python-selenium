@@ -13,8 +13,8 @@ In `BasePage` you can find all basic operations done on a website. It inherits i
 
 
 To run this program:
-1. Run `pytest test_RegistrationPage.py` for account creation on a [seleniumdemo.com](http://seleniumdemo.com/) website. Created account is valid for 24 hours. By that time it's deleted.
-2. Run `pytest test_LoginPage.py` for login test 
+1. Run `pytest Tests/test_RegistrationPage.py` for account creation on a [seleniumdemo.com](http://seleniumdemo.com/) website. Created account is valid for 24 hours. By that time it's deleted.
+2. Run `pytest Tests/test_LoginPage.py` for login test 
 
 
 
